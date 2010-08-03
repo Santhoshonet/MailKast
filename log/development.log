@@ -1,0 +1,2346 @@
+/!\ FAILSAFE /!\  2010-08-02 18:09:19 +0530
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on 'localhost' (10061)
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/monitor.rb:190:in `mon_synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2010-08-02 18:09:48 +0530
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on 'localhost' (10061)
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/monitor.rb:190:in `mon_synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2010-08-02 18:10:50 +0530
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on 'localhost' (10061)
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/monitor.rb:190:in `mon_synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2010-08-02 18:11:01 +0530
+  Status: 500 Internal Server Error
+  Can't connect to MySQL server on 'localhost' (10061)
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `real_connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:619:in `connect'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/monitor.rb:190:in `mon_synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:8:in `synchronize'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 18:12:05) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 18:20:37) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2111ms (View: 2110, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Index (for 127.0.0.1 at 2010-08-02 18:21:02) [POST]
+  Parameters: {"authenticity_token"=>"86PV/O/2zorxUOeIx0WpxM547N47cVbJ6AivMAK1FNU=", "Name"=>"SanTEch345", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+
+ActionController::UnknownAction (No action responded to Index. Actions: Success and index):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 18:22:01) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 13ms (View: 12, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 18:22:12) [POST]
+  Parameters: {"authenticity_token"=>"7xE18sUvbcQGZqa3gqSWd52+3aopxr7qMBGrtrUt5jo=", "Name"=>"santech345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+MissingSourceFile (no such file to load -- xmlsimple):
+  lib/campaign_monitor.rb:3:in `<top (required)>'
+  app/controllers/mail_camp_controller.rb:18:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (76.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 18:31:18) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 18:31:30) [POST]
+  Parameters: {"authenticity_token"=>"YR3wJdZojiI6EHvW1QWH83VXWojylEqN8901Yq6EgTs=", "Name"=>"Sante2131", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+
+MissingSourceFile (no such file to load -- soap/wsdlDriver):
+  lib/campaign_monitor/list.rb:1:in `<top (required)>'
+  lib/campaign_monitor.rb:11:in `<top (required)>'
+  app/controllers/mail_camp_controller.rb:18:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 18:38:22) [POST]
+  Parameters: {"authenticity_token"=>"YR3wJdZojiI6EHvW1QWH83VXWojylEqN8901Yq6EgTs=", "Name"=>"Sante2131", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:00:14) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2170ms (View: 2169, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:00:26) [POST]
+  Parameters: {"authenticity_token"=>"QcazPcM5GoU3/hU7kXJ3xXPR+svIvhTfm/qFPgIovIk=", "Name"=>"Santecg234", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+MissingSourceFile (no such file to load -- soap/wsdlDriver):
+  lib/campaign_monitor/list.rb:1:in `<top (required)>'
+  lib/campaign_monitor.rb:11:in `<top (required)>'
+  app/controllers/mail_camp_controller.rb:18:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (113.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:42:13) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2174ms (View: 2173, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:42:24) [POST]
+  Parameters: {"authenticity_token"=>"bQMcJLzTu3lPWPxWbMpNbi+0u5R36wslIQ651mcTffs=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+MissingSourceFile (no such file to load -- soap/wsdlDriver):
+  lib/campaign_monitor/list.rb:1:in `<top (required)>'
+  lib/campaign_monitor.rb:11:in `<top (required)>'
+  app/controllers/mail_camp_controller.rb:18:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (113.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:50:21) [POST]
+  Parameters: {"authenticity_token"=>"bQMcJLzTu3lPWPxWbMpNbi+0u5R36wslIQ651mcTffs=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+MissingSourceFile (no such file to load -- soap/wsdlDriver):
+  lib/campaign_monitor/list.rb:1:in `<top (required)>'
+  lib/campaign_monitor.rb:11:in `<top (required)>'
+  app/controllers/mail_camp_controller.rb:18:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (112.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:51:51) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2158ms (View: 2157, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:52:54) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 25ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:53:03) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+MissingSourceFile (no such file to load -- soap/wsdlDriver):
+  lib/campaign_monitor/list.rb:1:in `<top (required)>'
+  lib/campaign_monitor.rb:11:in `<top (required)>'
+  app/controllers/mail_camp_controller.rb:18:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (82.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:55:50) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+MissingSourceFile (no such file to load -- soap/wsdlDriver):
+  lib/campaign_monitor/list.rb:1:in `<top (required)>'
+  lib/campaign_monitor.rb:11:in `<top (required)>'
+  app/controllers/mail_camp_controller.rb:18:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (112.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:56:17) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 136ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 19:59:09) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1309ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:00:50) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 638ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:01:57) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 610ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:07:11) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 608ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:07:59) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (98.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:08:49) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1218ms (View: 35, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:09:57) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (98.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:11:57) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (97.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:12:38) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (99.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:13:14) [POST]
+  Parameters: {"authenticity_token"=>"V+zCgY7KuKw/ok7pbzE1CnRjlnhBiixkVmBf8JdM0JE=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (102.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:14:16) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2494ms (View: 2492, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:14:26) [POST]
+  Parameters: {"authenticity_token"=>"jxL8vB0q3m+2qyc8FGOEbglzFXS8FhmVXXEMh9fTKqU=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 611ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:15:21) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2238ms (View: 2236, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:15:34) [POST]
+  Parameters: {"authenticity_token"=>"aJ3UQGJIxQ6lYuvbfc+2kUAQDyj2uChzgSNCFFU1vh4=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 143ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:15:52) [POST]
+  Parameters: {"authenticity_token"=>"aJ3UQGJIxQ6lYuvbfc+2kUAQDyj2uChzgSNCFFU1vh4=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1201ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:16:38) [POST]
+  Parameters: {"authenticity_token"=>"aJ3UQGJIxQ6lYuvbfc+2kUAQDyj2uChzgSNCFFU1vh4=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 959ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:21:56) [POST]
+  Parameters: {"authenticity_token"=>"aJ3UQGJIxQ6lYuvbfc+2kUAQDyj2uChzgSNCFFU1vh4=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (101.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:22:22) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2336ms (View: 2334, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:22:33) [POST]
+  Parameters: {"authenticity_token"=>"0XCrgdJfFemWLL16E9RCdkU+366uiTA3sKyIn8dLFG4=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 920ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:22:50) [POST]
+  Parameters: {"authenticity_token"=>"0XCrgdJfFemWLL16E9RCdkU+366uiTA3sKyIn8dLFG4=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 923ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:44:52) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2298ms (View: 2297, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:45:18) [POST]
+  Parameters: {"authenticity_token"=>"egQFbkvL9YalA3k4xj8b9i0hSsZ1Bgn/8T7YupKzJrI=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 146ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:45:28) [POST]
+  Parameters: {"authenticity_token"=>"egQFbkvL9YalA3k4xj8b9i0hSsZ1Bgn/8T7YupKzJrI=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1930ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:47:02) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2247ms (View: 2246, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:47:12) [POST]
+  Parameters: {"authenticity_token"=>"CbsIxCHn9SDg1v0PrjHql+35JY7dRHTl+ABQu/UCo68=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 143ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:47:19) [POST]
+  Parameters: {"authenticity_token"=>"CbsIxCHn9SDg1v0PrjHql+35JY7dRHTl+ABQu/UCo68=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2387ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:47:41) [POST]
+  Parameters: {"authenticity_token"=>"CbsIxCHn9SDg1v0PrjHql+35JY7dRHTl+ABQu/UCo68=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 631ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:47:50) [POST]
+  Parameters: {"authenticity_token"=>"CbsIxCHn9SDg1v0PrjHql+35JY7dRHTl+ABQu/UCo68=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 614ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:49:08) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2248ms (View: 2246, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:50:39) [POST]
+  Parameters: {"authenticity_token"=>"otlPyA1OTNiPckaqtfMcB5CORZYKvRPdLrqNy2m+AoA=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 164ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:50:54) [POST]
+  Parameters: {"authenticity_token"=>"otlPyA1OTNiPckaqtfMcB5CORZYKvRPdLrqNy2m+AoA=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 628ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:55:50) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2246ms (View: 2245, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:56:27) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:56:35) [POST]
+  Parameters: {"authenticity_token"=>"c+72GMhgN3LzyNu003CBb0Vg8wegZMbIFFdjOO1/aTY=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 147ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:56:47) [POST]
+  Parameters: {"authenticity_token"=>"c+72GMhgN3LzyNu003CBb0Vg8wegZMbIFFdjOO1/aTY=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 628ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 20:57:48) [POST]
+  Parameters: {"authenticity_token"=>"c+72GMhgN3LzyNu003CBb0Vg8wegZMbIFFdjOO1/aTY=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 860ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:20:12) [POST]
+  Parameters: {"authenticity_token"=>"c+72GMhgN3LzyNu003CBb0Vg8wegZMbIFFdjOO1/aTY=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1159ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:21:30) [POST]
+  Parameters: {"authenticity_token"=>"c+72GMhgN3LzyNu003CBb0Vg8wegZMbIFFdjOO1/aTY=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1147ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:22:03) [POST]
+  Parameters: {"authenticity_token"=>"c+72GMhgN3LzyNu003CBb0Vg8wegZMbIFFdjOO1/aTY=", "Name"=>"ABCDEfg", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 598ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:24:00) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2258ms (View: 2257, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:24:11) [POST]
+  Parameters: {"authenticity_token"=>"4G/BV4/hFIf/zYCPffroEi07zIRq7OniGeZeUXf7isg=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 149ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:24:19) [POST]
+  Parameters: {"authenticity_token"=>"4G/BV4/hFIf/zYCPffroEi07zIRq7OniGeZeUXf7isg=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1153ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:24:48) [POST]
+  Parameters: {"authenticity_token"=>"4G/BV4/hFIf/zYCPffroEi07zIRq7OniGeZeUXf7isg=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 600ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:26:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2258ms (View: 2257, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:26:29) [POST]
+  Parameters: {"authenticity_token"=>"ptml1G7hk/VOEuwzXq4q+59Z2+1PdA2sxChPVdv/qKA=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 145ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:26:36) [POST]
+  Parameters: {"authenticity_token"=>"ptml1G7hk/VOEuwzXq4q+59Z2+1PdA2sxChPVdv/qKA=", "Name"=>"Santecg234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 608ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:28:30) [POST]
+  Parameters: {"authenticity_token"=>"ptml1G7hk/VOEuwzXq4q+59Z2+1PdA2sxChPVdv/qKA=", "Name"=>"Santecg234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 138ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:28:36) [POST]
+  Parameters: {"authenticity_token"=>"ptml1G7hk/VOEuwzXq4q+59Z2+1PdA2sxChPVdv/qKA=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 597ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-02 21:28:37) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:29:13) [POST]
+  Parameters: {"authenticity_token"=>"ptml1G7hk/VOEuwzXq4q+59Z2+1PdA2sxChPVdv/qKA=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 593ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-02 21:29:14) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:31:08) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2250ms (View: 2249, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:31:17) [POST]
+  Parameters: {"authenticity_token"=>"fnkL0r+kPLd3L81M3rDDqN1SDk0DqJFMK7zbKvG11ho=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 142ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:31:24) [POST]
+  Parameters: {"authenticity_token"=>"fnkL0r+kPLd3L81M3rDDqN1SDk0DqJFMK7zbKvG11ho=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 603ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:32:15) [POST]
+  Parameters: {"authenticity_token"=>"fnkL0r+kPLd3L81M3rDDqN1SDk0DqJFMK7zbKvG11ho=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 629ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:32:34) [POST]
+  Parameters: {"authenticity_token"=>"fnkL0r+kPLd3L81M3rDDqN1SDk0DqJFMK7zbKvG11ho=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 597ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:33:02) [POST]
+  Parameters: {"authenticity_token"=>"fnkL0r+kPLd3L81M3rDDqN1SDk0DqJFMK7zbKvG11ho=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1016ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:33:24) [POST]
+  Parameters: {"authenticity_token"=>"fnkL0r+kPLd3L81M3rDDqN1SDk0DqJFMK7zbKvG11ho=", "Name"=>"Santecg234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 929ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:33:54) [POST]
+  Parameters: {"authenticity_token"=>"fnkL0r+kPLd3L81M3rDDqN1SDk0DqJFMK7zbKvG11ho=", "Name"=>"Santecg234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 842ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:34:17) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:34:24) [POST]
+  Parameters: {"authenticity_token"=>"pieFyAzyHPfbyBqeBFV9twvt6GKlkxK/6DVqdYJUpm8=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 980ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:34:52) [POST]
+  Parameters: {"authenticity_token"=>"pieFyAzyHPfbyBqeBFV9twvt6GKlkxK/6DVqdYJUpm8=", "Name"=>"Sante2131", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 943ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:35:42) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:35:50) [POST]
+  Parameters: {"authenticity_token"=>"JNy2Cflnb47HvpFyvPH0Jq6uvNYfXxyAUNznplovYas=", "Name"=>"SanTEch345", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 838ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:36:24) [POST]
+  Parameters: {"authenticity_token"=>"JNy2Cflnb47HvpFyvPH0Jq6uvNYfXxyAUNznplovYas=", "Name"=>"ITX324234", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 860ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:37:19) [POST]
+  Parameters: {"authenticity_token"=>"JNy2Cflnb47HvpFyvPH0Jq6uvNYfXxyAUNznplovYas=", "Name"=>"ITX324234", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 828ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:37:57) [POST]
+  Parameters: {"authenticity_token"=>"JNy2Cflnb47HvpFyvPH0Jq6uvNYfXxyAUNznplovYas=", "Name"=>"ITX324234", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 944ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:38:15) [POST]
+  Parameters: {"authenticity_token"=>"JNy2Cflnb47HvpFyvPH0Jq6uvNYfXxyAUNznplovYas=", "Name"=>"ITV2342", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1145ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:38:42) [POST]
+  Parameters: {"authenticity_token"=>"JNy2Cflnb47HvpFyvPH0Jq6uvNYfXxyAUNznplovYas=", "Name"=>"Sante2131", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 871ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:39:03) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2282ms (View: 2280, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:39:15) [POST]
+  Parameters: {"authenticity_token"=>"HO/IUXwW6rJ2i9Ue1gD9kk6l1aHx99kp782lnDSQqS4=", "Name"=>"san9999", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 146ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:39:25) [POST]
+  Parameters: {"authenticity_token"=>"HO/IUXwW6rJ2i9Ue1gD9kk6l1aHx99kp782lnDSQqS4=", "Name"=>"san9999", "Email"=>"santhoshonet@gmail.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 836ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:40:33) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2268ms (View: 2266, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:40:44) [POST]
+  Parameters: {"authenticity_token"=>"EnAKz750I/9QeiP6EfMjlQYDK7Y+CXwz4ZpaQjb4Bwk=", "Name"=>"san9999", "Email"=>"santhoshinet@gmail.coms", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 144ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:40:54) [POST]
+  Parameters: {"authenticity_token"=>"EnAKz750I/9QeiP6EfMjlQYDK7Y+CXwz4ZpaQjb4Bwk=", "Name"=>"san9999s", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1053ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:41:44) [POST]
+  Parameters: {"authenticity_token"=>"EnAKz750I/9QeiP6EfMjlQYDK7Y+CXwz4ZpaQjb4Bwk=", "Name"=>"san9999s", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1671ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:42:08) [POST]
+  Parameters: {"authenticity_token"=>"EnAKz750I/9QeiP6EfMjlQYDK7Y+CXwz4ZpaQjb4Bwk=", "Name"=>"san9999", "Email"=>"santhoshinet@gmail.coms", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 991ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:42:49) [POST]
+  Parameters: {"authenticity_token"=>"EnAKz750I/9QeiP6EfMjlQYDK7Y+CXwz4ZpaQjb4Bwk=", "Name"=>"san9999", "Email"=>"santhoshinet@gmail.coms", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1021ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:51:53) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2155ms (View: 2154, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:52:04) [POST]
+  Parameters: {"authenticity_token"=>"a8aZws+wCP3xVQsCSKmqwRDvCklBHYEL8QLh9OfYrcE=", "Name"=>"SanTEch345", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 119ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:52:14) [POST]
+  Parameters: {"authenticity_token"=>"a8aZws+wCP3xVQsCSKmqwRDvCklBHYEL8QLh9OfYrcE=", "Name"=>"san9999", "Email"=>"santhoshonet@gmail.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 805ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:53:45) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2260ms (View: 2259, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:53:59) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"SanTEch345", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 141ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:54:07) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"SanTEch345", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"SanthoshPS"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 599ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-02 21:54:07) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 10ms (View: 9, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:54:28) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"SanTEch345", "Email"=>"santhoshinet@gmail.coms", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 607ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-02 21:54:29) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:55:14) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"san9999", "Email"=>"santhoshinet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 603ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-02 21:55:15) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:56:03) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"san9999", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 597ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-02 21:56:04) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:57:04) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 135ms (View: 23, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:57:18) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 593ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-02 21:57:18) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:58:49) [POST]
+  Parameters: {"authenticity_token"=>"TxZkazv21srxeeBEeKqBM5gljdOJR5mXICVYCQzt3pU=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3557ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:59:17) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2249ms (View: 2248, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:59:27) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 146ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 21:59:36) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 597ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:00:10) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 863ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:01:09) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 626ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:01:59) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 617ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:03:02) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 687ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:03:52) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 603ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:04:05) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 599ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:05:00) [POST]
+  Parameters: {"authenticity_token"=>"6ZxoPOMt+NLFcmLmE3V7AAsLamYIO6NErv/z/bJ1I9o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2217ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:06:02) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:06:11) [POST]
+  Parameters: {"authenticity_token"=>"UWnnaHWA9FkFdtTcRxR6C3xtwWdxS3qJwI/5CAhzzRo=", "Name"=>"SanTEch345", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 909ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:06:44) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2234ms (View: 2233, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:06:55) [POST]
+  Parameters: {"authenticity_token"=>"bmNgkmp3P129V8XWwmHZxk8g/R5Xp8rbqNH82gz63Xg=", "Name"=>"san9999", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 142ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:11:52) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2194ms (View: 2192, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:12:02) [POST]
+  Parameters: {"authenticity_token"=>"w/Hlrv9hyIKD5fzC/0sh4sDp4yAP/9QQT9bt82Xefas=", "Name"=>"ITXSolutions", "Email"=>"santhoshinet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1097ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:12:37) [POST]
+  Parameters: {"authenticity_token"=>"w/Hlrv9hyIKD5fzC/0sh4sDp4yAP/9QQT9bt82Xefas=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 931ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:15:02) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2175ms (View: 2173, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:15:13) [POST]
+  Parameters: {"authenticity_token"=>"n/Vr50GzX6xeZiQYEgUGG0F+MSCiPaSbMY2DRAMxZL0=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 894ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:15:49) [POST]
+  Parameters: {"authenticity_token"=>"n/Vr50GzX6xeZiQYEgUGG0F+MSCiPaSbMY2DRAMxZL0=", "Name"=>"ITX324234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1116ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:16:38) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2171ms (View: 2170, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:16:50) [POST]
+  Parameters: {"authenticity_token"=>"UiKka0TUnBnvWWdZuc8txjrVnvkbGFnrbNMYszWiQz0=", "Name"=>"ITV2342", "Email"=>"santhoshonet@gmail.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 879ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:19:37) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3106ms (View: 2225, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:20:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 901ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-02 22:20:21) [POST]
+  Parameters: {"authenticity_token"=>"wE5v1MWc3YjegZWouTO7aF2v9ABVbhZrGUa6XqvZj4o=", "Name"=>"ITXSolutions", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"SanthoshPS"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 857ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (41.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:40:56) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3660ms (View: 2356, DB: 42) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:44:49) [POST]
+  Parameters: {"authenticity_token"=>"YT0JA/5Z692rTOSDrGKjxnoqJfcMSsePtbpAh96EPvU=", "Name"=>"Itx123", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (82.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (unprocessable_entity)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:46:09) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:46:12) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:46:14) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:46:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:46:27) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1518ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:47:36) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:47:59) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 921ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:48:07) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 641ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 10:48:08) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 15ms (View: 14, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:48:24) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 629ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 10:48:25) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:50:24) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:50:43) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 637ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 10:50:44) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:51:10) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 604ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 10:51:10) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:51:35) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:51:46) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 619ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 10:51:46) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:52:37) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 658ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 10:52:38) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 10:55:43) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 644ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 10:55:44) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:31:44) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 609ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:32:05) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123423", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 618ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:32:21) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshenet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 640ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:35:29) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx5568", "Email"=>"santhoshunet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 600ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 11:35:29) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:35:39) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123423", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 601ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 11:35:40) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:35:47) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 605ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 11:35:47) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:37:39) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 598ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 11:37:40) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:47:19) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 604ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:48:39) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 618ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:49:23) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 602ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:50:03) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 609ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:50:41) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 612ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:51:13) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 640ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:54:46) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshenet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 630ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:57:09) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 658ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:58:54) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123423", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 647ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 11:59:51) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx1234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 687ms (View: 2, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:00:06) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123423", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 686ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:01:10) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234235", "Email"=>"santhoshonet@yahoo.co.in", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 645ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:01:45) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx12342356", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 644ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 12:01:45) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:16:22) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx12342356", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 640ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 12:16:22) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:16:31) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234235", "Email"=>"santhoshonet@yahoo.co.in", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 681ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 12:16:32) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:16:39) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 36ms (View: 35, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:16:52) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:17:03) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 3215ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 12:17:06) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:17:44) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:18:26) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 925ms (View: 24, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:18:33) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 645ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 12:18:34) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:18:51) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 672ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 12:18:52) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:19:00) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 641ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:53:37) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshoent@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3564ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:55:06) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1234", "Email"=>"santhoshoent@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 648ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:55:24) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx787", "Email"=>"santhoshonet@yahoo.co.in", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2469ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 12:59:15) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx78709", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3781ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 13:00:16) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx5563", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 3441ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 13:00:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 13:02:08) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx5563", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 2540ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 13:02:10) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 13:09:24) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 951ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 13:09:31) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 13:09:40) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshanet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 994ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 13:18:43) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshanet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1221ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 14:13:20) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 2710ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 14:13:22) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 14:14:12) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx5565", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 651ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 14:14:25) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx12342356", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 2435ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-03 14:14:27) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:11:48) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx12342356", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1528ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:12:09) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx345", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3722ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:13:32) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx3455", "Email"=>"santhoshanet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1296ms (View: 34, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:13:52) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 646ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:14:58) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2463ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:17:47) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshonet@yahoo.co.in", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1583ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:18:44) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx5566", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2944ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:19:51) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx111", "Email"=>"santhoshenet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1958ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:22:16) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx111", "Email"=>"santhoshenet@gmail.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 969ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:37:51) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1396ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:42:39) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx123", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2431ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:44:09) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 668ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:44:42) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 658ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:44:59) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx111", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2429ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:46:07) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx1112", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1950ms (View: 42, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:47:34) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"ITx556", "Email"=>"santhoshanet@gmail.com", "Contact"=>"Santhosh123"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1915ms (View: 3, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:55:22) [POST]
+  Parameters: {"authenticity_token"=>"6JaGUWWTZTs4+isPFMMDDvT0hdkkdfqf5K4Tq82GqKo=", "Name"=>"Itx12342356", "Email"=>"santhoshonet@yahoo.co.in", "Contact"=>"Santhosh123"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1845ms (View: 26, DB: 0) | 200 OK [http://localhost/]

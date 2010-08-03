@@ -1,0 +1,79 @@
+.clearFix
+{
+	overflow: hidden;
+}
+BODY
+{
+	background: url(../images/body.png);
+}
+.container
+{
+	margin: 30px auto 0;
+	width: 600px;
+	border: 1px solid #D3D3D3;
+	background: #FFFFFF;
+}
+.logo
+{
+	padding: 20px 20px 0px;
+	border-bottom: 1px solid #D3D3D3;
+}
+.logo P
+{
+	font-size: 0.9em;
+	margin-top: 10px;
+	color: #969696;
+}
+.signUp
+{
+	padding: 0 20px 20px;
+}
+.signUp P
+{
+	margin-top: 10px;
+	background: #FFF2BE;
+}
+.signUp LABEL
+{
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.signUp INPUT
+{
+	width: 540px;
+	padding: 10px;
+	color: #3F3F3F;
+}
+.signUp SPAN
+{
+	font-size: 0.5em;
+	background: #9C7C00;
+	color: #FFFFFF;
+	padding: 2px;
+	position: absolute;
+	margin: 3px -3px 0 3px;
+}
+A.button
+{
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: url(../images/signup-default.png);
+	padding: 6px 16px 8px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+A.button:active
+{
+	background: url(../images/signup-click.png);
+	text-decoration: none;
+	color: #9B7B00;
+	padding: 6px 16px 8px 17px;
+}
+
+.errorDescription
+{
+		padding-top:5px;
+		color: RED;
+}

@@ -1,0 +1,2 @@
+module Index::MailCampHelper
+end

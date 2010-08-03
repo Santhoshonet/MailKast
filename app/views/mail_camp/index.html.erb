@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Email Marketing Signup</title>
+<%= stylesheet_link_tag "reset" %>
+<%= stylesheet_link_tag "typography" %>
+<%= stylesheet_link_tag "layout" %>
+<%= javascript_include_tag "jquery-1.4.1.min.js" %>
+<%= javascript_include_tag "Index.js" %>
+</head>
+<body>
+	<div class="container">
+    <div class="logo">
+    	<%= image_tag("logo.png") %>
+      <p>You are seconds away from accessing the worlds most awesome email marketing application. All you have to do is give us some basic information so that we can set up an account for you and send you on your way to marketing world domaination!</p>
+    </div>
+    <div class="signUp">
+      <!--This para should be shown shown only when the required fields are left blank -->
+      <!-- The background color has to fade out after a few seconds -->
+      <!--<p>We need some information about you to create your account. Please fill in your <strong>Name</strong> and your <strong>Email</strong></p> -->
+	   <div class="errorDescription">
+		<% if flash[:error] %>
+		<%= flash[:error] %>
+		<% end %>
+	   </div>
+      <% form_tag(:action => "index") do |f| %>
+      <!-- The span should turn to red if left blank Red value #D20000 again the red has to fade in-->
+      <label>Company name <span>Required</span></label>
+      <input type="text" name="Name" value="" id="BtnName" />
+      <label>Email <span>Required</span></label>
+      <input type="text" name="Email" value=""  id="BtnEmail"/>
+      <label>Contact name<span>Required</span></label>
+      <input type="text" name="Contact" value="" id="BtnContact" />
+	<a class="button" href="#">Create Account</a>
+ <% end %>
+    </div>
+	<div style="clear:both;"></div>
+  </div>
+</body>
+</html>

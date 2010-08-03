@@ -1,0 +1,39 @@
+BODY
+{
+	font-size: 1.1em;
+	line-height: 1.3;
+	font-family: arial;
+	color: #3F3F3F;
+}
+TEXTAREA
+{
+	font-size: 1.1em;
+	line-height: 1.3;
+	font-family: arial;
+}
+INPUT
+{
+	font-size: 1.1em;
+	line-height: 1.3;
+	font-family: arial;
+}
+P
+{
+	margin-bottom: 15px;
+}
+H1
+{
+	font-size: 2.1em;
+}
+H2
+{
+	font-size: 1.8em;
+}
+H3
+{
+	font-size: 1.5em;
+}
+H4
+{
+	font-size: 1.2em;
+}
