@@ -2344,3 +2344,601 @@ Processing MailCampController#index (for 127.0.0.1 at 2010-08-03 15:55:22) [POST
 Rendering template within layouts/application
 Rendering mail_camp/index
 Completed in 1845ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-04 20:14:39) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2718ms (View: 2555, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 11:58:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2555ms (View: 2405, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 11:59:23) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 12:00:49) [POST]
+  Parameters: {"authenticity_token"=>"jCoAGnpIj2M54/Q2Z8h6nS/Zpl5ARPyxP49QOzrv1aY=", "Name"=>"Itx123", "Email"=>"santhoshanet@gmail.com", "Contact"=>"Santhosh", "Password"=>"password@123"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 3321ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-05 12:00:53) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 17:27:43) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5526ms (View: 2454, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 17:28:51) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2881ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 17:30:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2841ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 17:31:01) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2854ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 17:31:34) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2870ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:02:20) [GET]
+
+ActionView::MissingTemplate (Missing template emailer/contact.erb in view path app/views):
+  app/controllers/mail_camp_controller.rb:100:in `sendmail'
+  app/controllers/mail_camp_controller.rb:6:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:03:53) [GET]
+
+ActionView::MissingTemplate (Missing template emailer/contact.erb in view path app/views):
+  app/controllers/mail_camp_controller.rb:100:in `sendmail'
+  app/controllers/mail_camp_controller.rb:6:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:04:16) [GET]
+
+ActionView::MissingTemplate (Missing template emailer/contact.erb in view path app/views):
+  app/controllers/mail_camp_controller.rb:100:in `sendmail'
+  app/controllers/mail_camp_controller.rb:6:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:05:11) [GET]
+
+NoMethodError (undefined method `sendmail' for #<MailCampController:0x3a0e900>):
+  app/controllers/mail_camp_controller.rb:6:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (88.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:05:30) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 166ms (View: 20, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:05:40) [GET]
+
+ActionView::MissingTemplate (Missing template emailer/contact.erb in view path app/views):
+  app/controllers/mail_camp_controller.rb:10:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:07:24) [GET]
+
+ActionView::MissingTemplate (Missing template emailer/contact.erb in view path app/views):
+  app/controllers/mail_camp_controller.rb:10:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:07:42) [GET]
+
+ActionView::MissingTemplate (Missing template emailer/contact.erb in view path app/views):
+  app/controllers/mail_camp_controller.rb:10:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:08:04) [GET]
+Sent mail to 
+
+Date: Thu, 5 Aug 2010 18:08:04 +0530
+From: santhoshonet@gmail.com
+Subject: Test Mail
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+X-Smtpapi: 
+
+Hi!
+
+You are having one email message from santhosh@itxsolutionsindia.com with a tilte
+
+this is test message
+and following is the message:
+Test message
+
+Thanks
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1044ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:23:26) [GET]
+
+ArgumentError (wrong authentication type HTML):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:764:in `check_auth_method'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:548:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:531:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:138:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (64.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:23:54) [GET]
+
+ArgumentError (wrong authentication type HTML):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:764:in `check_auth_method'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:548:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:531:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:138:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (96.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:24:28) [GET]
+
+ArgumentError (wrong authentication type html):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:764:in `check_auth_method'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:548:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:531:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:139:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:24:52) [GET]
+
+NameError (undefined local variable or method `html' for #<MailCampController:0x3a4b020>):
+  app/controllers/mail_camp_controller.rb:139:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (96.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:25:01) [GET]
+
+ArgumentError (wrong authentication type text_html):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:764:in `check_auth_method'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:548:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:531:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:139:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:26:01) [GET]
+
+Net::SMTPAuthenticationError (535 5.7.8 Error: authentication failed: no mechanism available
+):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:948:in `check_auth_continue'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:752:in `block in auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:921:in `critical'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:750:in `auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:725:in `authenticate'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:566:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:531:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:139:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (107.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:26:45) [GET]
+
+Net::SMTPAuthenticationError (535 5.7.8 Error: authentication failed: authentication failure
+):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:942:in `check_auth_response'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:733:in `auth_plain'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:725:in `authenticate'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:566:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:531:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:139:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:28:37) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3062ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:30:09) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 9195ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:31:14) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2862ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:32:06) [GET]
+
+Net::SMTPSyntaxError (501 5.1.7 Bad sender address syntax
+):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:930:in `check_response'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:899:in `getok'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:828:in `mailfrom'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:653:in `send_message'
+  app/controllers/mail_camp_controller.rb:105:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:33:45) [GET]
+
+Net::SMTPAuthenticationError (535 5.7.8 Error: authentication failed: no mechanism available
+):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:948:in `check_auth_continue'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:752:in `block in auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:921:in `critical'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:750:in `auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:725:in `authenticate'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:566:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:531:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:104:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (118.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:37:02) [GET]
+
+Net::SMTPAuthenticationError (535 5.7.8 Error: authentication failed: no mechanism available
+):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:948:in `check_auth_continue'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:752:in `block in auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:921:in `critical'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:750:in `auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:725:in `authenticate'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:566:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:525:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:104:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (70.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:37:34) [GET]
+
+Net::SMTPAuthenticationError (535 5.7.8 Error: authentication failed: no mechanism available
+):
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:948:in `check_auth_continue'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:752:in `block in auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:921:in `critical'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:750:in `auth_cram_md5'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:725:in `authenticate'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:566:in `do_start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:525:in `start'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/net/smtp.rb:463:in `start'
+  app/controllers/mail_camp_controller.rb:104:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (101.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:38:05) [GET]
+
+NoMethodError (undefined method `finish' for #<Net::SMTP::Response:0x5075640>):
+  app/controllers/mail_camp_controller.rb:117:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (77.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:38:53) [GET]
+
+NoMethodError (undefined method `finish' for #<Net::SMTP::Response:0x398d8e0>):
+  app/controllers/mail_camp_controller.rb:117:in `SendMail'
+  app/controllers/mail_camp_controller.rb:7:in `index'
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (97.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:39:42) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3413ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:40:46) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3432ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 18:42:07) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3931ms (View: 27, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 19:14:22) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 19:14:45) [POST]
+  Parameters: {"authenticity_token"=>"B7sBbUg2fyyx1WSIOkZyMizIIOCpdPxVlWjC5fzpsqU=", "Name"=>"ITXABCD", "Email"=>"santhoshanet@gmail.com", "Contact"=>"santhosh", "Password"=>"password@123"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 3503ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-05 19:14:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 19:16:16) [POST]
+  Parameters: {"authenticity_token"=>"B7sBbUg2fyyx1WSIOkZyMizIIOCpdPxVlWjC5fzpsqU=", "Name"=>"ITXABCD2", "Email"=>"santhoshinet@gmail.com", "Contact"=>"santhoshPS", "Password"=>"password@123"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 3156ms (DB: 1) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-05 19:16:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-05 19:18:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5129ms (View: 5128, DB: 0) | 200 OK [http://localhost/mail_camp/Success]

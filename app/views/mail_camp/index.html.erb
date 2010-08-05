@@ -27,11 +27,13 @@
       <% form_tag(:action => "index") do |f| %>
       <!-- The span should turn to red if left blank Red value #D20000 again the red has to fade in-->
       <label>Company name <span>Required</span></label>
-      <input type="text" name="Name" value="" id="BtnName" />
+      <input type="text" name="Name" value="" id="TxtName" />
       <label>Email <span>Required</span></label>
-      <input type="text" name="Email" value=""  id="BtnEmail"/>
+      <input type="text" name="Email" value=""  id="TxtEmail"/>
       <label>Contact name<span>Required</span></label>
-      <input type="text" name="Contact" value="" id="BtnContact" />
+      <input type="text" name="Contact" value="" id="TxtContact" />
+      <label>Password<span>Required</span></label>
+      <input type="password" name="Password" value="" id="TxtPassword" />
 	<a class="button" href="#">Create Account</a>
  <% end %>
     </div>

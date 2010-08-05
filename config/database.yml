@@ -35,8 +35,9 @@ test:
   database: ITXMailCampaign_test
   pool: 5
   username: root
-  password:
+  password: password@123
   host: localhost
+  port: 3308
 
 production:
   adapter: mysql

@@ -6,12 +6,18 @@
 <%= stylesheet_link_tag "reset" %>
 <%= stylesheet_link_tag "typography" %>
 <%= stylesheet_link_tag "layout" %>
+<%= javascript_include_tag "jquery-1.4.1.min.js" %>
+<%= javascript_include_tag "Index.js" %>
 </head>
 <body>
 	<div class="container">
-    <div class="logo">
+      <div class="logo">
     	<%= image_tag("logo.png") %>
-      <p>You have successfully created a client.</div>
-  </div>
+        <p>You have successfully created a client.<BR>
+          Please wait, we are redirecting you to the CampaignMonitor. </p>
+      </div>
+    </div>
+    <div id="username" style="display:none"><%= flash[:username] %></div>
+    <div id="password" style="display:none"><%= flash[:password] %></div>
 </body>
 </html>

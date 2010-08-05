@@ -12,6 +12,24 @@
   <component name="GemRequirementsHolder" version="2">
     <requirement>
       <requirement>
+        <dependency name="archive-tar-minitar" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="columnize" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="linecache19" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="mysql" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <source from="config/database.yml" />
@@ -21,6 +39,18 @@
         <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" git="false" />
       </requirement>
       <source from="config/boot.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="ruby-debug-base19" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="ruby_core_source" version="0" bound="GREATER_OR_EQUAL" git="false" />
+      </requirement>
+      <source manual="true" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">
@@ -40,6 +70,15 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v2.3.8, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/rake-0.8.7)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mysql (v2.8.1, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/mysql-2.8.1-x86-mingw32)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] test-unit (v2.1.1, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/test-unit-2.1.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] columnize (v0.3.1, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/columnize-0.3.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] linecache (v0.43, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/linecache-0.43-x86-mswin32)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug (v0.10.3, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/ruby-debug-0.10.3)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug-base (v0.10.3, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/ruby-debug-base-0.10.3-x86-mswin32)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] archive-tar-minitar (v0.5.2, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/archive-tar-minitar-0.5.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] linecache19 (v0.5.11, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/linecache19-0.5.11)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby-debug-base19 (v0.11.23, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/ruby-debug-base19-0.11.23)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ruby_core_source (v0.1.4, C:/Users/Santhosh/AppData/Ruby191/lib/ruby/gems/1.9.1/gems/ruby_core_source-0.1.4)" level="application" />
   </component>
 </module>
 

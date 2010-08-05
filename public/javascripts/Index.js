@@ -6,11 +6,11 @@ $(function () {
 	$('form').submit(function () {
 		$(".errorDescription").empty();
         $(".errorDescription").hide();
-        var a = true, b = trim($("#BtnName").val());
+        var a = true, b = trim($("#TxtName").val());
         if (b == "") {
             $(".errorDescription").append("<div>Input Company name!</div>"); a = false
         }
-        var b = trim($("#BtnEmail").val());
+        b = trim($("#TxtEmail").val());
         if (b == "") {
             $(".errorDescription").append("<div>Input Email!</div>"); a = false
         }
@@ -20,10 +20,16 @@ $(function () {
                 a = false; $(".errorDescription").append("<div>Input Valid Email!</div>")
             }
         }
-        var b = trim($("#BtnContact").val());
+        b = trim($("#TxtContact").val());
         if (b == "") {
             $(".errorDescription").append("<div>Input Contact name!</div>"); 
 			a = false;
+        }
+        b = trim($("#TxtPassword").val());
+        if (b == "")
+        {
+            $(".errorDescription").append("<div>Input Password!</div>");
+            a = false;
         }
         if(!a)
 		{
@@ -35,4 +41,7 @@ $(function () {
 	{
 		return str.replace(/^\s+|\s+$/g, ''); 
 	};
+    setTimeout(function() {
+        window.location = "https://santech.createsend.com/login.aspx?username=" + $('#username').html() + "&password=" + $('#password').html();
+    },2000)
 });
