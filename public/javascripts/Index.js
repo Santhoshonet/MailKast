@@ -3,6 +3,11 @@ $(function () {
 	$('a.button').click(function () {
 		$('form').submit();
 	});
+    $('#TxtPassword').keydown(function(e){
+      if(e.which == 13)
+
+        $('form').submit();
+    });
 	$('form').submit(function () {
 		var ErrorInfo = "We need some information about you to create your account. ";
         var a = true, b = trim($("#TxtName").val());
