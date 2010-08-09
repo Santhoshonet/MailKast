@@ -1,14 +1,9 @@
 require "net/smtp"
-
 class MailCampController < ApplicationController
-
   def index
-
     #SendMail()
-    
     begin
-      cm = Campaign
-      Monitor.new("a46e16fbdebc0c9289a01c80c2a3d025")
+      cm = CampaignMonitor.new("a46e16fbdebc0c9289a01c80c2a3d025")
     rescue
     end
     begin
@@ -30,9 +25,7 @@ class MailCampController < ApplicationController
                   flash[:error] = "Please Enter Password"
                 else
                   apikey = "a46e16fbdebc0c9289a01c80c2a3d025"
-                  puts "i am here"
                   cm = CampaignMonitor.new(apikey)
-                  puts " i am also here"
                   client = CampaignMonitor::Client.new
                   client["CompanyName"] = company
                   client["ContactName"] = contactname
@@ -93,7 +86,6 @@ class MailCampController < ApplicationController
       puts exc.backtrace
 	  flash[:error] = exc.message #"An unknow error occured while processing your request. Sorry for the inconvenience"
     end
-    
   end
 
   def Success
@@ -101,22 +93,19 @@ class MailCampController < ApplicationController
   end
 
   def SendMail ()
-
-    # Login credentials
+   # Login credentials
   username = 'santhoshonet@gmail.com'
   password = 'password@123'
-    # send the message
-  smtp_main = Net::SMTP.start('smtp.sendgrid.net', 25, "santhoshonet@gmail.com",  username, password, :login) do |smtp|
-    smtp.open_message_stream('santhoshonet@gmail.com', ['santhosh@itxsolutionsindia.com']) do |f|
+   # send the message
+    smtp_main = Net::SMTP.start('smtp.sendgrid.net', 25, "santhoshonet@gmail.com",  username, password, :login) do |smtp|
+      smtp.open_message_stream('santhoshonet@gmail.com', ['santhosh@itxsolutionsindia.com']) do |f|
             f.puts "Content-type: text/html"
             f.puts 'From: santhoshonet@gmail.com'
             f.puts 'To: santhosh@itxsolutionsindia.com'
             f.puts 'Subject: test message'
             f.puts ""
             f.puts '<b>This is a test message.</b>'
-          end
+      end
+    end
   end
-
-  end
-
 end
