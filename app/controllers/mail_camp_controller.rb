@@ -7,7 +7,8 @@ class MailCampController < ApplicationController
     #SendMail()
     
     begin
-      cm = CampaignMonitor.new("a46e16fbdebc0c9289a01c80c2a3d025")
+      cm = Campaign
+      Monitor.new("a46e16fbdebc0c9289a01c80c2a3d025")
     rescue
     end
     begin
@@ -74,7 +75,7 @@ class MailCampController < ApplicationController
                       if rescode == '' or rescode == "0"
                           flash[:username] = email
                           flash[:password] = password
-                          redirect_to :action => "Success"
+                          redirect_to "https://santech.createsend.com/login.aspx?username=" + email + "&password=" + password
                       else
                           flash[:error] = "Client has been created successfully, The following error occured while assigning the Account Access <br/> " + result.raw["FullError"]
                       end

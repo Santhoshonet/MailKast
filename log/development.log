@@ -2974,3 +2974,1058 @@ Processing MailCampController#index (for 127.0.0.1 at 2010-08-05 19:29:31) [GET]
 Rendering template within layouts/application
 Rendering mail_camp/index
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:21:51) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2611ms (View: 2456, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:31:09) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 18ms (View: 16, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:31:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:31:30) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:32:00) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:33:28) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:34:01) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 171ms (View: 26, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:34:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2476ms (View: 2475, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:34:56) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 176ms (View: 27, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:36:31) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2489ms (View: 2487, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:38:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:38:26) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:38:57) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:39:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:40:18) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:41:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:42:07) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 17:43:22) [POST]
+  Parameters: {"authenticity_token"=>"lNgCMXlLmYK9n3OjTOApj8mtQ/FjUxlAEaMbbRXqxww=", "Name"=>"ITX234", "Email"=>"santhoshonet@gmail.com", "Contact"=>"Santhosh", "Password"=>"password@123"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 4356ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 17:43:27) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 17:46:29) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 17:46:30) [GET]
+
+ActionController::RoutingError (No route matches "/mail_camp/google.com" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Users/Santhosh/AppData/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 17:47:02) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:37:44) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:43:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:46:18) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 16ms (View: 15, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:46:44) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:47:41) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:48:26) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 26ms (View: 24, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:48:52) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-06 19:50:16) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2621ms (View: 2476, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:50:23) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:55:18) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:55:29) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:55:57) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:56:42) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:57:04) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:57:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:57:39) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:57:43) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:57:45) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:58:10) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 12ms (View: 11, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:58:26) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:58:38) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:59:10) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:59:42) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 19:59:56) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:00:03) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:01:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:01:53) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:02:16) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:02:18) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:02:32) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:02:47) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:03:08) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:03:12) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:04:31) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:05:17) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5200ms (View: 5199, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:10:41) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:10:55) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:11:27) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:12:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:12:30) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:12:53) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:16:16) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:17:24) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:19:36) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:20:10) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:20:30) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:20:34) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:20:44) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:20:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:21:14) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:22:03) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:23:21) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 7ms (View: 5, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:23:52) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:24:18) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:24:49) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:25:36) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:26:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:26:40) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:27:08) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:27:45) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:28:12) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:28:20) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:28:50) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:29:12) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:29:31) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:29:47) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:30:10) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 26ms (View: 25, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:31:12) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:31:20) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:31:48) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:31:54) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:32:33) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:33:21) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:33:26) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:33:38) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:33:54) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:34:12) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:34:40) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5166ms (View: 5165, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:35:33) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:36:02) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:36:33) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:36:47) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:37:01) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:37:45) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:38:46) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:39:00) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:39:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:39:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:41:19) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 2550ms (View: 2549, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:42:11) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:45:05) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-06 20:45:50) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 2459ms (View: 2457, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 11:35:43) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 3003ms (View: 2503, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 11:35:59) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 11:36:32) [POST]
+  Parameters: {"authenticity_token"=>"ysrJNjSoyBrUgS/tTBCzelmvYQLyOO5dehuWjUrzrek=", "Name"=>"ITX678", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh", "Password"=>"password@123"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 3594ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-09 11:36:36) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 33ms (View: 32, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 11:38:08) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:13:04) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:16:05) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:16:24) [POST]
+  Parameters: {"authenticity_token"=>"VDDiqAFy2zzF+dy/zvsVPGJdrASd6Lxruf2D0Yrz/dk=", "Name"=>"ITX78686", "Email"=>"santhoshonet@yahoo.co.in", "Contact"=>"Santhosh", "Password"=>"password@123"}
+Redirected to http://localhost:3000/mail_camp/Success
+Completed in 3897ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#Success (for 127.0.0.1 at 2010-08-09 12:16:28) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/Success
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/Success]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:30:50) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:31:35) [POST]
+  Parameters: {"authenticity_token"=>"zBKGqw/ROjiqcQoVxlOt2LbcAmSjqt5UrcKy6/tw9zs=", "Name"=>"ITX123", "Email"=>"santhoshonet@yahoo.com", "Contact"=>"Santhosh", "Password"=>"password2123"}
+Redirected to http://google.com
+Completed in 3670ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:34:34) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:34:53) [POST]
+  Parameters: {"authenticity_token"=>"P7sCYC64Rpoj+BjHjXTzYRmsmsw+yIYjlL2T5RKLsVk=", "Name"=>"ITX987", "Email"=>"santhoshonet@yahoo.co.in", "Contact"=>"Santhosh", "Password"=>"password@123"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 656ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:35:12) [POST]
+  Parameters: {"authenticity_token"=>"P7sCYC64Rpoj+BjHjXTzYRmsmsw+yIYjlL2T5RKLsVk=", "Name"=>"ITX234", "Email"=>"santhoshinet@yahoo.co.in", "Contact"=>"Santhosh", "Password"=>"password@123"}
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 1258ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:36:02) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/mail_camp/index]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 12:39:43) [POST]
+  Parameters: {"authenticity_token"=>"NFNq5h8nG/tPGCUfJn4O4stcZ7bHmlpZYNdSgU1BLT8=", "Name"=>"ITX543", "Email"=>"santhosh@itxsolutionsindia.com", "Contact"=>"Santhosh", "Password"=>"password@123"}
+Redirected to https://santech.createsend.com/login.aspx?username=santhosh@itxsolutionsindia.com&password=password@123
+Completed in 1989ms (DB: 0) | 302 Found [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MailCampController#index (for 127.0.0.1 at 2010-08-09 13:01:15) [GET]
+Rendering template within layouts/application
+Rendering mail_camp/index
+Completed in 2302ms (View: 2298, DB: 0) | 200 OK [http://localhost/mail_camp/index]

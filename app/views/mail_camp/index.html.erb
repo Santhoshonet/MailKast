@@ -9,7 +9,7 @@
 <%= javascript_include_tag "jquery-1.4.1.min.js" %>
 <%= javascript_include_tag "Index.js" %>
 </head>
-<body>
+<body class="body">
 	<div class="container">
     <div class="logo">
     	<%= image_tag("logo.png") %>
@@ -18,12 +18,10 @@
     <div class="signUp">
       <!--This para should be shown shown only when the required fields are left blank -->
       <!-- The background color has to fade out after a few seconds -->
-      <!--<p>We need some information about you to create your account. Please fill in your <strong>Name</strong> and your <strong>Email</strong></p> -->
-	   <div class="errorDescription">
-		<% if flash[:error] %>
+      <p id="errorDescription"><% if flash[:error] %>
 		<%= flash[:error] %>
 		<% end %>
-	   </div>
+      </p>
       <% form_tag(:action => "index") do |f| %>
       <!-- The span should turn to red if left blank Red value #D20000 again the red has to fade in-->
       <label>Company name <span>Required</span></label>
@@ -34,7 +32,7 @@
       <input type="text" name="Contact" value="" id="TxtContact" />
       <label>Password<span>Required</span></label>
       <input type="password" name="Password" value="" id="TxtPassword" />
-	<a class="button" href="#">Create Account</a>
+	   <a class="button" href="#">Create Account</a>
  <% end %>
     </div>
 	<div style="clear:both;"></div>

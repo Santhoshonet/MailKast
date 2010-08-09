@@ -1,8 +1,4 @@
-.clearFix
-{
-	overflow: hidden;
-}
-BODY
+.body
 {
 	background: url(../images/body.png);
 }
@@ -19,6 +15,7 @@ BODY
 	border-bottom: 1px solid #D3D3D3;
 }
 .logo P
+
 {
 	font-size: 0.9em;
 	margin-top: 10px;
@@ -54,6 +51,33 @@ BODY
 	position: absolute;
 	margin: 3px -3px 0 3px;
 }
+
+.signUp a
+{
+    background-image:url("../images/signup-default.png");
+}
+
+.containerPop
+{
+    margin: 30px auto 0;
+	width: 400px;
+	border: 1px solid #D3D3D3;
+	background: #FFFFFF;
+    position:absolute;
+    top:100px;
+    opacity:1;
+    display:none;
+}
+.ContainerMain
+{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color:Darkgray;
+    opacity:0.4;
+}
+
 A.button
 {
 	float: left;
@@ -64,16 +88,11 @@ A.button
 	text-decoration: none;
 	color: #FFFFFF;
 }
+
 A.button:active
 {
 	background: url(../images/signup-click.png);
 	text-decoration: none;
 	color: #9B7B00;
 	padding: 6px 16px 8px 17px;
-}
-
-.errorDescription
-{
-		padding-top:5px;
-		color: RED;
 }

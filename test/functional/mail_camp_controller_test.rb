@@ -1,5 +1,4 @@
 require 'test/unit'
-
 class MailCampControllerTest < Test::Unit::TestCase
 
   def setup
@@ -11,13 +10,12 @@ class MailCampControllerTest < Test::Unit::TestCase
   end
 
   def test_one
-    assert(false, "Assertion was false")
+      cm = MailCampController.new
+      
   end
 
   def test_two
-   
-  end
 
-  
+  end
 
 end
