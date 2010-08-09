@@ -1,5 +1,6 @@
 $(function () {
-	$('#errorDescription').hide();
+	if(trim($('#errorDescription').html()) == "")
+        $('#errorDescription').hide();
 	$('a.button').click(function () {
 		$('form').submit();
 	});

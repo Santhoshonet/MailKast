@@ -75,7 +75,7 @@ class MailCampController < ApplicationController
                       if rescode == '' or rescode == "0"
                           flash[:username] = email
                           flash[:password] = password
-                          redirect_to "https://santech.createsend.com/login.aspx?username=" + email + "&password=" + password
+                          response.redirect("https://santech.createsend.com/login.aspx?username=" + email + "&password=" + password,0)
                       else
                           flash[:error] = "Client has been created successfully, The following error occured while assigning the Account Access <br/> " + result.raw["FullError"]
                       end
