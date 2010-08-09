@@ -30,7 +30,9 @@ class MailCampController < ApplicationController
                   flash[:error] = "Please Enter Password"
                 else
                   apikey = "a46e16fbdebc0c9289a01c80c2a3d025"
+                  puts "i am here"
                   cm = CampaignMonitor.new(apikey)
+                  puts " i am also here"
                   client = CampaignMonitor::Client.new
                   client["CompanyName"] = company
                   client["ContactName"] = contactname
@@ -75,7 +77,7 @@ class MailCampController < ApplicationController
                       if rescode == '' or rescode == "0"
                           flash[:username] = email
                           flash[:password] = password
-                          response.redirect("https://santech.createsend.com/login.aspx?username=" + email + "&password=" + password,0)
+                          redirect_to "https://santech.createsend.com/login.aspx?username=" + email + "&password=" + password
                       else
                           flash[:error] = "Client has been created successfully, The following error occured while assigning the Account Access <br/> " + result.raw["FullError"]
                       end
@@ -87,7 +89,8 @@ class MailCampController < ApplicationController
           end
         end
       end
-	rescue Exception => exc
+    rescue Exception => exc
+      puts exc.backtrace
 	  flash[:error] = exc.message #"An unknow error occured while processing your request. Sorry for the inconvenience"
     end
     
